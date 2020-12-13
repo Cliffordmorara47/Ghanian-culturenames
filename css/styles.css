@@ -1,10 +1,24 @@
-
 body{
     padding-left: 500px;
-    background-image: url("../images/image3.jpg");
+    background-image: url("../images/image11.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: rgb(215, 215, 223);
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
-form{
-    padding-top: 100px;
+h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    text-shadow: burlywood;
+    text-decoration: cornsilk;
+    text-indent: 0px;
+}
+h2{
+    padding-bottom: 30px;
+}
+label{
+    color: rgb(236, 230, 230);
 }
