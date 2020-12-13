@@ -17,19 +17,38 @@ h1{
     text-indent: 0px;
 }
 h2{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+.submit{
+    width: 10%;
+    background-color: rgb(10, 8, 109);
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
 }
 .input{
     width: 50%;
-    border: black;
+    padding: 12px 20px;
 }
 input{
     background-color: black;
     color: blanchedalmond;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
 .card{
     background-color:rgb(14, 13, 13);
 }
 label{
     color: rgb(236, 230, 230);
+}
+.gender{
+    font-size: large;
+    color: black;
+    padding-left: 10px;
+}
+.radio{
+    padding: 5px;
+    box-sizing: border-box;
 }
