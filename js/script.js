@@ -23,10 +23,20 @@ function validate(){
         return true;
     }
 }
-var CC, YY, MM, DD, d;
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+
+var gender = document.getElementsByName("gender");
+if(gender[0].checked === true){
+    gender = "male"
+} else if(gender[1].checked === true){
+    gender = "female"
+} else {
+    return false;
+}
+switch(gender)
+
 function dayOfTheWeek() {
     year = document.getElementById("year").nodeValue;
     CC = parseInt(year.substring(0,2));
