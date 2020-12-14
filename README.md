@@ -1,2 +1,1 @@
-#GHANA
-#Akan Names
+
