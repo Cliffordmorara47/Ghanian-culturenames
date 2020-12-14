@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # _GHANA_
 # _Akan-Names_
 _These are names derived from the culture of Ghana, Children used to be named according to the day they were born. Like for example, a male child born on Monday would be called Kwadwo and a female child would be given the name Akosua. This website allows the user to enter his/her birthday and he/she gets to know the name that should have been given._
@@ -26,4 +27,6 @@ _The website was brought up in December 2020 by Clifford Morara. The Author  was
  4. [Bootstrap](https://getbootstrap.com/ "bootstrap")
  5. [Markdown](https://en.wikipedia.org/wiki/Markdown "README.md")
 
+=======
+>>>>>>> af21607338ad1cf1e61bd70c137a0fe259bf4a96
 
