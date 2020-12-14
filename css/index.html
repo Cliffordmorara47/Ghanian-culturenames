@@ -14,27 +14,35 @@
     <h1>Ghana Traditions</h1>
     <div class="card"></div>
     <h2>Akan Names</h2>
+    <p>Ghana has a culture of naming children according to their day of birth, like a child born on monday was given the name Kwadwo for a boy and Adwoa for a girl. Due to the times and seasons, the culture isn't strictly followed. But here is a way to know what your Akan name could be if you were born in Ghana.</p>
     </div>
-    <form name="myForm" onsubmit="return validate()" class="form">
+    <form name="myForm" onsubmit="validate();" class="form">
         <p>Enter your details here and get to know your Akan Name:</p>
-        <p>Year of Birth</p>
-        <label for="year"></label>
-        <input type="number" name="Year" class="input" placeholder="2020" id="year">
-        <p>Month of birth</p>
-        <label for="month"></label>
+        <!--<p>Year of Birth</p>-->
+        <label for="year">Year of Birth</label>
+        <br>
+        <input type="number" name="year" class="input" placeholder="2020" id="year">
+        <br>
+        <!--<p>Month of birth</p>-->
+        <label for="month">Month of Birth</label>
+        <br>
         <input type= "number" min="1" max="12" step="1" name="month" class="input" placeholder="07" id="month">
-        <p>Date of birth</p>
-        <label for="date"></label>
+        <br>
+        <!--<p>Date of birth</p>-->
+        <label for="date">Date of Birth:</label>
+        <br>
         <input type="number" min="1" max="31" step="1" name="date" class="input" placeholder="27" id="date">
         <div class="radio">
         <br>
-        <input type="radio" name="gender" id="male" class="radio">
-        <label for="male" class="gender"><strong>Male</strong></label>
-        <input type="radio" name="gender" id="female" class="radio">
-        <label for="female" class="gender"><strong>Female</strong></label>
+        <label for="male" class="gender">
+        <input type="radio" name="gender" id="male" class="radio">&nbsp; Male
+        </label>
+        <label for="female" class="gender">
+        <input type="radio" name="gender" id="female" class="radio">&nbsp;Female
+        </label>
         <br>
         <br>
-        <input type="submit" value="Submit" class="submit">
+        <button type="submit" class="btn btn-primary" onclick="findName();">Submit</button>
         </div>
     </div>
     </form>
