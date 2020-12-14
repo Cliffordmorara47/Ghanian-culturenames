@@ -35,7 +35,30 @@ if(gender[0].checked === true){
 } else {
     return false;
 }
-switch(gender)
+switch(gender){
+    case "male":
+        if (dayvalue = 1){
+            alert("You were born on " + days[0] + "." + " Your Akan name is " + maleNames[0] + ".")
+        }
+        if (dayvalue = 2){
+            alert("You were born on " + days[1] + "." + " Your Akan name is " + maleNames[1] + ".")
+        }
+        if (dayvalue = 3){
+            alert("You were born on " + days[2] + "." + " Your Akan name is " + maleNames[2] + ".")
+        }
+        if (dayvalue = 4){
+            alert("You were born on " + days[3] + "." + " Your Akan name is " + maleNames[3] + ".")
+        }
+        if (dayvalue = 5){
+            alert("You were born on " + days[4] + "." + " Your Akan name is " + maleNames[4] + ".")
+        }
+        if (dayvalue = 6){
+            alert("You were born on " + days[5] + "." + " Your Akan name is " + maleNames[5] + ".")
+        }
+        if (dayvalue = 7){
+            alert("You were born on " + days[6] + "." + " Your Akan name is " + maleNames[6] + ".")
+        }
+}
 
 function dayOfTheWeek() {
     year = document.getElementById("year").nodeValue;
