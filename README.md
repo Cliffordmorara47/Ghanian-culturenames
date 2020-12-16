@@ -8,7 +8,7 @@ _The website was brought up in December 2020 by Clifford Morara. The Author  was
 
 
 # _Image of website_
-![Akan-names](screenshot.png "culture")
+![Akan-names](images/screenshot.png "culture")
  
  ## _Visit website_
  [Ghana traditions](https://cliffordmorara47.github.io/Ghanian-culturenames/ "culture")
